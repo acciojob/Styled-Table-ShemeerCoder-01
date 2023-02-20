@@ -1,1 +1,30 @@
 /* your code */
+table{
+/* 	border: 1px solid gray; */
+	width:100%;
+	border-collapse: collapse;
+}
+thead{
+	background-color:navy;
+	color:white;	
+}
+th,td{
+	padding:10px;
+	text-align:left;
+}
+th:nth-child(1){
+	border-top-left-radius:10px;
+}
+th:nth-child(6){
+	border-top-right-radius:10px;
+}
+tbody .two{
+	background-color: lightgray;
+}
+.last_f{
+	border-bottom-left-radius:10px;
+}
+.last_l{
+	border-bottom-right-radius:10px;
+}
+
